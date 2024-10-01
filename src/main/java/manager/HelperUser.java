@@ -51,4 +51,12 @@ public class HelperUser extends HelperBase {
     public void logout() {
         click(By.xpath("//button[text()='Sign Out']"));
     }
+
+    public void submitRegistration() {
+        click(By.xpath("//button[text()='Registration']"));
+    }
+
+    public boolean isRegistered() {
+        return isElementPresent(By.xpath("//h1[text()=' No Contacts here!']"));
+    }
 }
