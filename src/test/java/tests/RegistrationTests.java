@@ -1,5 +1,6 @@
 package tests;
 
+import models.User;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -18,8 +19,10 @@ public class RegistrationTests extends TestBase{
     @Test
     public void registrationSuccess(){
         int z = (int) (System.currentTimeMillis() / 1000) % 3600;
+        User user = new User().setEmail("mara"+z+"@gmail.com").setPassword("Wwon"+z+"$");
         app.getHelperUser().openLoginRegistrationForm();
-        app.getHelperUser().fillLoginRegistrationForm("mara"+z+"@gmail.com","Mmar"+z+"$");
+        app.getHelperUser().fillLoginRegistrationForm(user);
+        //app.getHelperUser().fillLoginRegistrationForm("mara"+z+"@gmail.com","Mmar"+z+"$");
         app.getHelperUser().submitRegistration();
 
 
@@ -37,6 +40,7 @@ public class RegistrationTests extends TestBase{
         Assert.assertTrue(app.getHelperUser().isRegistered());
     }
 
+    //@Test(description = "Bug report #23456", enabled = false)
     @Test
     public void registrationWrongEmail(){
         app.getHelperUser().openLoginRegistrationForm();
@@ -55,5 +59,13 @@ public class RegistrationTests extends TestBase{
         Assert.assertTrue(app.getHelperUser().isAllertPresent("Wrong email or password"));
     }
 
+    @Test
+    public void registrationExistUser(){
+        app.getHelperUser().openLoginRegistrationForm();
+        app.getHelperUser().fillLoginRegistrationForm("mara@gmail.com","Mmar123456$");
+        app.getHelperUser().submitLogin();
+
+        Assert.assertTrue(app.getHelperUser().isAllertPresent("User already exist"));
+    }
 
 }
