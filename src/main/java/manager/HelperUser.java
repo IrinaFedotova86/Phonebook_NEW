@@ -66,4 +66,22 @@ public class HelperUser extends HelperBase {
         return wait.until(ExpectedConditions.textToBePresentInElement(wd.findElement(By.cssSelector(".contact-page_message__2qafk>h1")),"No Contacts here!"));
         //return isElementPresent(By.xpath("//h1[text()=' No Contacts here!']"));
     }
+
+    public void login(User user) {
+        openLoginRegistrationForm();
+        fillLoginRegistrationForm(user);
+        submitLogin();
+    }
+
+    public boolean isSaveButtonNotActive() {
+        WebElement el = wd.findElement(By.xpath("//b[text()='Save']"));
+        boolean res1 = el.isEnabled();
+        return !res1;
+
+    }
+
+    public void goHomePage() {
+        WebElement el = wd.findElement(By.xpath("//a[text()='HOME']"));
+        el.click();
+    }
 }

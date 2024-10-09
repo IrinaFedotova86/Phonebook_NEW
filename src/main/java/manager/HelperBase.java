@@ -39,6 +39,15 @@ public class HelperBase {
         return list.size()>0;
     }
 
+    public void pause(int time){
+        try {
+
+            Thread.sleep(time);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+
+    }
 
     public boolean isAllertPresent(String message) {
         Alert alert = new WebDriverWait(wd, Duration.ofSeconds(10)).until(ExpectedConditions.alertIsPresent());
