@@ -22,21 +22,22 @@ public class AddNewContact extends TestBase{
         Contact contact = Contact.builder()
                 .name("Roma")
                 .lastName("Abramovich")
-                .phone("89512387658")
-                .email("abramovich@gmail.com")
+                .phone("89523123"+i)
+                .email("abramovich"+i+"@gmail.com")
                 .address("Herclia")
                 .description("CDa")
                 .build();
         app.getHelperContact().openContactForm();
         app.getHelperContact().fillContactForm(contact);
 
+        app.getHelperContact().getScreen("src/test/screenshots/screen"+i+".png");
         app.getHelperContact().submit();
         //Assert.assertTrue(app.getHelperContact().contactAddedSuccess(contact));
         Assert.assertEquals(app.getHelperContact().newContactname(contact), contact.getName());
     }
 
     @Test
-    public void addNewCarRequiredFieldsSuccess() {
+    public void addNewContactRequiredFieldsSuccess() {
         Contact contact = Contact.builder()
                 .name("Kate")
                 .lastName("Asty")
@@ -48,7 +49,8 @@ public class AddNewContact extends TestBase{
         app.getHelperContact().fillContactForm(contact);
 
         app.getHelperContact().submit();
-        //Assert.assertTrue(app.getHelperContact().contactAddedSuccess(contact));
+        Assert.assertTrue(app.getHelperContact().contactAddedByNameSuccess(contact.getName()));
+        Assert.assertTrue(app.getHelperContact().contactAddedByPhonrSuccess(contact.getPhone()));
         Assert.assertEquals(app.getHelperContact().newContactname(contact), contact.getName());
     }
 
@@ -68,6 +70,7 @@ public class AddNewContact extends TestBase{
 
         app.getHelperContact().submit();
         Assert.assertTrue(app.getHelperContact().isAddFormPresent());
+        Assert.assertTrue(app.getHelperContact().isAddButtonBlack());
 
     }
 
@@ -105,7 +108,8 @@ public class AddNewContact extends TestBase{
         app.getHelperContact().fillContactForm(contact);
 
         app.getHelperContact().submit();
-        Assert.assertTrue(app.getHelperUser().isAllertPresent("Phone not valid"));
+        //Assert.assertTrue(app.getHelperUser().isAllertPresent("Phone not valid"));
+        Assert.assertTrue(app.getHelperContact().isAllertPresent("Phone not valid"));
     }
 
     @Test
@@ -123,7 +127,7 @@ public class AddNewContact extends TestBase{
         app.getHelperContact().fillContactForm(contact);
 
         app.getHelperContact().submit();
-        Assert.assertTrue(app.getHelperUser().isAllertPresent("Phone not valid"));
+        Assert.assertTrue(app.getHelperContact().isAllertPresent("Phone not valid"));
     }
 
     @Test
@@ -159,7 +163,7 @@ public class AddNewContact extends TestBase{
         app.getHelperContact().fillContactForm(contact);
 
         app.getHelperContact().submit();
-        Assert.assertTrue(app.getHelperUser().isAllertPresent("Email not valid"));
+        Assert.assertTrue(app.getHelperContact().isAllertPresent("Email not valid"));
     }
 
     @Test

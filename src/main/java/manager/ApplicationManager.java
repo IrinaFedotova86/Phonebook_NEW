@@ -7,6 +7,7 @@ import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
 
+    HelperRemove helperRemove;
     HelperUser helperUser;
     HelperContact helperContact;
 
@@ -19,6 +20,11 @@ public class ApplicationManager {
         wd.navigate().to("https://telranedu.web.app/");
         helperUser=new HelperUser(wd);
         helperContact=new HelperContact(wd);
+        helperRemove =new HelperRemove(wd);
+    }
+
+    public HelperRemove getHelperRemove() {
+        return helperRemove;
     }
 
     public HelperUser getHelperUser() {
