@@ -1,0 +1,73 @@
+120176 INFO  manager.ApplicationManager -- All tests run in Chrome browser
+123479 INFO  manager.ApplicationManager -- The link --->https://telranedu.web.app/home
+123500 INFO  manager.TestNGListener -- start testing on date -->Tue Oct 29 20:01:36 IST 2024
+123527 INFO  tests.TestBase -- Name of method --->loginSuccess
+128597 INFO  manager.TestNGListener -- start test -->LoginTests.loginSuccess(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTests@22295ec4]
+128597 INFO  tests.TestBase -- Start test LoginSuccess
+128597 INFO  tests.TestBase -- Test data ---> email: mara@gmail.com & password: Mmar123456$
+128597 INFO  manager.WDListener -- Before Find Element --->By.cssSelector: a[href='/login']
+128628 INFO  manager.WDListener -- Before After Element --->By.cssSelector: a[href='/login']
+128660 INFO  manager.WDListener -- Location of element(1170, 34)
+128678 INFO  manager.WDListener -- Before Click Element --->a text+ LOGIN
+128748 INFO  manager.WDListener -- After Click Element --->a
+128749 INFO  manager.WDListener -- Before Find Element --->By.name: email
+128784 INFO  manager.WDListener -- Before After Element --->By.name: email
+128799 INFO  manager.WDListener -- Location of element(431, 250)
+128820 INFO  manager.WDListener -- Before Click Element --->input text+ 
+128854 INFO  manager.WDListener -- After Click Element --->input
+128957 INFO  manager.WDListener -- sendKeys --->input
+129003 INFO  manager.WDListener -- sendKeys --->input
+129054 INFO  manager.WDListener -- sendKeys --->input
+129054 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[last()]
+129074 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[last()]
+129083 INFO  manager.WDListener -- Location of element(431, 320)
+129086 INFO  manager.WDListener -- Before Click Element --->input text+ 
+129122 INFO  manager.WDListener -- After Click Element --->input
+129170 INFO  manager.WDListener -- sendKeys --->input
+129206 INFO  manager.WDListener -- sendKeys --->input
+129236 INFO  manager.WDListener -- sendKeys --->input
+129236 INFO  manager.WDListener -- Before Find Element --->By.xpath: //button[text()='Login']
+129269 INFO  manager.WDListener -- Before After Element --->By.xpath: //button[text()='Login']
+129279 INFO  manager.WDListener -- Location of element(431, 390)
+129286 INFO  manager.WDListener -- Before Click Element --->button text+ Login
+131689 INFO  tests.TestBase -- Assert check is element Button 'Sign out' present
+131693 INFO  manager.TestNGListener -- success test -->LoginTests.loginSuccess(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTests@22295ec4]
+131694 INFO  tests.TestBase -- =================================================================
+131694 INFO  tests.TestBase -- Name of method --->loginSuccess
+131725 INFO  manager.WDListener -- Before Find Element --->By.xpath: //button[text()='Sign Out']
+131736 INFO  manager.WDListener -- Before After Element --->By.xpath: //button[text()='Sign Out']
+131751 INFO  manager.WDListener -- Location of element(1155, 39)
+131770 INFO  manager.WDListener -- Before Click Element --->button text+ Sign Out
+131825 INFO  tests.TestBase -- Before method logout finish
+131826 INFO  manager.TestNGListener -- start test -->LoginTests.loginSuccess(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTests@22295ec4]
+131827 INFO  tests.TestBase -- Start test LoginSuccess
+131827 INFO  tests.TestBase -- Test data ---> email: sonya@gmail.com & password: Ss12345$
+131827 INFO  manager.WDListener -- Before Find Element --->By.cssSelector: a[href='/login']
+131853 INFO  manager.WDListener -- Before After Element --->By.cssSelector: a[href='/login']
+131853 INFO  manager.WDListener -- Location of element(1152, 33)
+131889 INFO  manager.WDListener -- Before Click Element --->a text+ LOGIN
+131933 INFO  manager.WDListener -- After Click Element --->a
+131934 INFO  manager.WDListener -- Before Find Element --->By.name: email
+131950 INFO  manager.WDListener -- Before After Element --->By.name: email
+131962 INFO  manager.WDListener -- Location of element(431, 250)
+131969 INFO  manager.WDListener -- Before Click Element --->input text+ 
+132020 INFO  manager.WDListener -- After Click Element --->input
+132071 INFO  manager.WDListener -- sendKeys --->input
+132101 INFO  manager.WDListener -- sendKeys --->input
+132154 INFO  manager.WDListener -- sendKeys --->input
+132155 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[last()]
+132171 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[last()]
+132181 INFO  manager.WDListener -- Location of element(431, 320)
+132198 INFO  manager.WDListener -- Before Click Element --->input text+ 
+132242 INFO  manager.WDListener -- After Click Element --->input
+132300 INFO  manager.WDListener -- sendKeys --->input
+132322 INFO  manager.WDListener -- sendKeys --->input
+132361 INFO  manager.WDListener -- sendKeys --->input
+132361 INFO  manager.WDListener -- Before Find Element --->By.xpath: //button[text()='Login']
+132383 INFO  manager.WDListener -- Before After Element --->By.xpath: //button[text()='Login']
+132395 INFO  manager.WDListener -- Location of element(431, 390)
+132409 INFO  manager.WDListener -- Before Click Element --->button text+ Login
+132837 INFO  tests.TestBase -- Assert check is element Button 'Sign out' present
+132837 INFO  manager.TestNGListener -- success test -->LoginTests.loginSuccess(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTests@22295ec4]
+132837 INFO  tests.TestBase -- =================================================================
+132853 INFO  manager.TestNGListener -- stop testing on date -->Tue Oct 29 20:01:36 IST 2024

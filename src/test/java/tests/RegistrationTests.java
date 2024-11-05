@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class RegistrationTests extends TestBase{
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void  precondition(){
         //is SignOut present ==> then do logout
 
@@ -20,6 +20,7 @@ public class RegistrationTests extends TestBase{
     public void registrationSuccess(){
         int z = (int) (System.currentTimeMillis() / 1000) % 3600;
         User user = new User().setEmail("mara"+z+"@gmail.com").setPassword("Wwon"+z+"$");
+        logger.info("Test run with data --->" + user.toString());
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm(user);
         //app.getHelperUser().fillLoginRegistrationForm("mara"+z+"@gmail.com","Mmar"+z+"$");
@@ -50,7 +51,7 @@ public class RegistrationTests extends TestBase{
         Assert.assertTrue(app.getHelperUser().isAllertPresent("Wrong email or password"));
     }
 
-    @Test
+    @Test(groups = {"smoke"})
     public void registrationWrongPassowrd(){
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm("mara@gmail.com","Mmar$");
@@ -62,8 +63,8 @@ public class RegistrationTests extends TestBase{
     @Test
     public void registrationExistUser(){
         app.getHelperUser().openLoginRegistrationForm();
-        app.getHelperUser().fillLoginRegistrationForm("mara@gmail.com","Mmar123456$");
-        app.getHelperUser().submitLogin();
+        app.getHelperUser().fillLoginRegistrationForm("mara@gmail.com","Mmar12345$");
+        app.getHelperUser().submitRegistration();
 
         Assert.assertTrue(app.getHelperUser().isAllertPresent("User already exist"));
     }

@@ -1,0 +1,470 @@
+4505 INFO  manager.ApplicationManager -- All tests run in Chrome browser
+6057 INFO  manager.ApplicationManager -- The link --->https://telranedu.web.app/home
+6085 INFO  manager.TestNGListener -- start testing on date -->Tue Nov 05 19:12:51 IST 2024
+11148 INFO  manager.TestNGListener -- start test -->LoginTests.loginWrongEmail()[pri:0, instance:tests.LoginTests@4b6690c0]
+11149 INFO  tests.TestBase -- Test data ---> email: 'maragmail.com' & password: 'Mmar123456$'
+11150 INFO  manager.WDListener -- Before Find Element --->By.cssSelector: a[href='/login']
+11179 INFO  manager.WDListener -- Before After Element --->By.cssSelector: a[href='/login']
+11193 INFO  manager.WDListener -- Location of element(1170, 34)
+11210 INFO  manager.WDListener -- Before Click Element --->a text+ LOGIN
+11258 INFO  manager.WDListener -- After Click Element --->a
+11259 INFO  manager.WDListener -- Before Find Element --->By.name: email
+11288 INFO  manager.WDListener -- Before After Element --->By.name: email
+11303 INFO  manager.WDListener -- Location of element(431, 250)
+11322 INFO  manager.WDListener -- Before Click Element --->input text+ 
+11367 INFO  manager.WDListener -- After Click Element --->input
+11451 INFO  manager.WDListener -- sendKeys --->input
+11480 INFO  manager.WDListener -- sendKeys --->input
+11513 INFO  manager.WDListener -- sendKeys --->input
+11513 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[last()]
+11532 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[last()]
+11540 INFO  manager.WDListener -- Location of element(431, 320)
+11551 INFO  manager.WDListener -- Before Click Element --->input text+ 
+11583 INFO  manager.WDListener -- After Click Element --->input
+11624 INFO  manager.WDListener -- sendKeys --->input
+11651 INFO  manager.WDListener -- sendKeys --->input
+11684 INFO  manager.WDListener -- sendKeys --->input
+11684 INFO  manager.WDListener -- Before Find Element --->By.xpath: //button[text()='Login']
+11701 INFO  manager.WDListener -- Before After Element --->By.xpath: //button[text()='Login']
+11709 INFO  manager.WDListener -- Location of element(431, 390)
+11720 INFO  manager.WDListener -- Before Click Element --->button text+ Login
+11786 INFO  manager.WDListener -- Huston we have a problem!!!
+11786 INFO  manager.WDListener -- Object target -->org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@12eedfee
+11786 INFO  manager.WDListener -- ------------------------------
+11786 INFO  manager.WDListener -- Method name --->alert
+11786 INFO  manager.WDListener -- ------------------------------
+11786 INFO  manager.WDListener -- InvocationTargetException -->org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=129.0.6668.101)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9d9536a17404956735b3682d3399ec38, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.101, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\ASUSVI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53748}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53748/devtoo..., se:cdpVersion: 129.0.6668.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d9536a17404956735b3682d3399ec38
+11787 INFO  manager.WDListener -- ------------------------------
+11787 INFO  manager.WDListener -- Screen with error is --->src/test/screenshots/screen_1610.png
+12303 INFO  manager.WDListener -- Huston we have a problem!!!
+12304 INFO  manager.WDListener -- Object target -->org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@77bb48d5
+12304 INFO  manager.WDListener -- ------------------------------
+12304 INFO  manager.WDListener -- Method name --->alert
+12304 INFO  manager.WDListener -- ------------------------------
+12304 INFO  manager.WDListener -- InvocationTargetException -->org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=129.0.6668.101)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9d9536a17404956735b3682d3399ec38, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.101, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\ASUSVI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53748}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53748/devtoo..., se:cdpVersion: 129.0.6668.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d9536a17404956735b3682d3399ec38
+12304 INFO  manager.WDListener -- ------------------------------
+12304 INFO  manager.WDListener -- Screen with error is --->src/test/screenshots/screen_1108.png
+12827 INFO  manager.WDListener -- Huston we have a problem!!!
+12828 INFO  manager.WDListener -- Object target -->org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@439b15f2
+12828 INFO  manager.WDListener -- ------------------------------
+12828 INFO  manager.WDListener -- Method name --->alert
+12828 INFO  manager.WDListener -- ------------------------------
+12828 INFO  manager.WDListener -- InvocationTargetException -->org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=129.0.6668.101)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9d9536a17404956735b3682d3399ec38, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.101, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\ASUSVI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53748}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53748/devtoo..., se:cdpVersion: 129.0.6668.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d9536a17404956735b3682d3399ec38
+12828 INFO  manager.WDListener -- ------------------------------
+12828 INFO  manager.WDListener -- Screen with error is --->src/test/screenshots/screen_1450.png
+13360 INFO  tests.TestBase -- Assert check is alert 'Wrong email or password' present
+13363 INFO  manager.TestNGListener -- success test -->LoginTests.loginWrongEmail()[pri:0, instance:tests.LoginTests@4b6690c0]
+18398 INFO  manager.TestNGListener -- start test -->RegistrationTests.registrationWrongPassowrd()[pri:0, instance:tests.RegistrationTests@2fc6f97f]
+18398 INFO  manager.WDListener -- Before Find Element --->By.cssSelector: a[href='/login']
+18412 INFO  manager.WDListener -- Before After Element --->By.cssSelector: a[href='/login']
+18422 INFO  manager.WDListener -- Location of element(1152, 33)
+18435 INFO  manager.WDListener -- Before Click Element --->a text+ LOGIN
+18473 INFO  manager.WDListener -- After Click Element --->a
+18474 INFO  manager.WDListener -- Before Find Element --->By.name: email
+18488 INFO  manager.WDListener -- Before After Element --->By.name: email
+18497 INFO  manager.WDListener -- Location of element(431, 281)
+18509 INFO  manager.WDListener -- Before Click Element --->input text+ 
+18546 INFO  manager.WDListener -- After Click Element --->input
+18617 INFO  manager.WDListener -- sendKeys --->input
+18642 INFO  manager.WDListener -- sendKeys --->input
+18674 INFO  manager.WDListener -- sendKeys --->input
+18674 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[last()]
+18687 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[last()]
+18695 INFO  manager.WDListener -- Location of element(431, 351)
+18706 INFO  manager.WDListener -- Before Click Element --->input text+ 
+18740 INFO  manager.WDListener -- After Click Element --->input
+18795 INFO  manager.WDListener -- sendKeys --->input
+18821 INFO  manager.WDListener -- sendKeys --->input
+18848 INFO  manager.WDListener -- sendKeys --->input
+18848 INFO  manager.WDListener -- Before Find Element --->By.xpath: //button[text()='Login']
+18860 INFO  manager.WDListener -- Before After Element --->By.xpath: //button[text()='Login']
+18867 INFO  manager.WDListener -- Location of element(431, 421)
+18879 INFO  manager.WDListener -- Before Click Element --->button text+ Login
+18923 INFO  manager.WDListener -- Huston we have a problem!!!
+18923 INFO  manager.WDListener -- Object target -->org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@5a75ec37
+18923 INFO  manager.WDListener -- ------------------------------
+18923 INFO  manager.WDListener -- Method name --->alert
+18923 INFO  manager.WDListener -- ------------------------------
+18923 INFO  manager.WDListener -- InvocationTargetException -->org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=129.0.6668.101)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9d9536a17404956735b3682d3399ec38, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.101, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\ASUSVI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53748}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53748/devtoo..., se:cdpVersion: 129.0.6668.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d9536a17404956735b3682d3399ec38
+18923 INFO  manager.WDListener -- ------------------------------
+18924 INFO  manager.WDListener -- Screen with error is --->src/test/screenshots/screen_1365.png
+19444 INFO  manager.WDListener -- Huston we have a problem!!!
+19444 INFO  manager.WDListener -- Object target -->org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@3f50b680
+19444 INFO  manager.WDListener -- ------------------------------
+19444 INFO  manager.WDListener -- Method name --->alert
+19444 INFO  manager.WDListener -- ------------------------------
+19445 INFO  manager.WDListener -- InvocationTargetException -->org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=129.0.6668.101)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9d9536a17404956735b3682d3399ec38, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.101, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\ASUSVI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53748}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53748/devtoo..., se:cdpVersion: 129.0.6668.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d9536a17404956735b3682d3399ec38
+19445 INFO  manager.WDListener -- ------------------------------
+19445 INFO  manager.WDListener -- Screen with error is --->src/test/screenshots/screen_1156.png
+19973 INFO  manager.TestNGListener -- success test -->RegistrationTests.registrationWrongPassowrd()[pri:0, instance:tests.RegistrationTests@2fc6f97f]
+25012 INFO  manager.WDListener -- Before Find Element --->By.cssSelector: a[href='/login']
+25029 INFO  manager.WDListener -- Before After Element --->By.cssSelector: a[href='/login']
+25037 INFO  manager.WDListener -- Location of element(1152, 33)
+25047 INFO  manager.WDListener -- Before Click Element --->a text+ LOGIN
+25080 INFO  manager.WDListener -- After Click Element --->a
+25080 INFO  manager.WDListener -- Before Find Element --->By.name: email
+25092 INFO  manager.WDListener -- Before After Element --->By.name: email
+25102 INFO  manager.WDListener -- Location of element(431, 281)
+25113 INFO  manager.WDListener -- Before Click Element --->input text+ 
+25148 INFO  manager.WDListener -- After Click Element --->input
+25203 INFO  manager.WDListener -- sendKeys --->input
+25230 INFO  manager.WDListener -- sendKeys --->input
+25262 INFO  manager.WDListener -- sendKeys --->input
+25263 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[last()]
+25274 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[last()]
+25282 INFO  manager.WDListener -- Location of element(431, 351)
+25294 INFO  manager.WDListener -- Before Click Element --->input text+ 
+25324 INFO  manager.WDListener -- After Click Element --->input
+25382 INFO  manager.WDListener -- sendKeys --->input
+25408 INFO  manager.WDListener -- sendKeys --->input
+25437 INFO  manager.WDListener -- sendKeys --->input
+25438 INFO  manager.WDListener -- Before Find Element --->By.xpath: //button[text()='Login']
+25449 INFO  manager.WDListener -- Before After Element --->By.xpath: //button[text()='Login']
+25456 INFO  manager.WDListener -- Location of element(431, 421)
+25466 INFO  manager.WDListener -- Before Click Element --->button text+ Login
+25497 INFO  manager.TestNGListener -- start test -->AddNewContact.addNewContactEmptyName()[pri:0, instance:tests.AddNewContact@3d2ee678]
+25502 INFO  tests.TestBase -- Test run with data --->Contact(name=, lastName=Vady, phone=89534967778, email=vady@gmail.com, address=Praga, description=No)
+25503 INFO  manager.WDListener -- Before Find Element --->By.xpath: //a[text()='ADD']
+25788 INFO  manager.WDListener -- Before After Element --->By.xpath: //a[text()='ADD']
+25807 INFO  manager.WDListener -- Location of element(985, 34)
+25819 INFO  manager.WDListener -- Before Click Element --->a text+ ADD
+25865 INFO  manager.WDListener -- After Click Element --->a
+25866 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[@placeholder='Name']
+25891 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[@placeholder='Name']
+25900 INFO  manager.WDListener -- Location of element(201, 165)
+25913 INFO  manager.WDListener -- Before Click Element --->input text+ 
+25950 INFO  manager.WDListener -- After Click Element --->input
+25997 INFO  manager.WDListener -- sendKeys --->input
+26017 INFO  manager.WDListener -- sendKeys --->input
+26038 INFO  manager.WDListener -- sendKeys --->input
+26039 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[@placeholder='Last Name']
+26052 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[@placeholder='Last Name']
+26059 INFO  manager.WDListener -- Location of element(201, 238)
+26070 INFO  manager.WDListener -- Before Click Element --->input text+ 
+26103 INFO  manager.WDListener -- After Click Element --->input
+26141 INFO  manager.WDListener -- sendKeys --->input
+26168 INFO  manager.WDListener -- sendKeys --->input
+26196 INFO  manager.WDListener -- sendKeys --->input
+26196 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[@placeholder='Phone']
+26209 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[@placeholder='Phone']
+26217 INFO  manager.WDListener -- Location of element(201, 311)
+26228 INFO  manager.WDListener -- Before Click Element --->input text+ 
+26261 INFO  manager.WDListener -- After Click Element --->input
+26300 INFO  manager.WDListener -- sendKeys --->input
+26324 INFO  manager.WDListener -- sendKeys --->input
+26354 INFO  manager.WDListener -- sendKeys --->input
+26355 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[@placeholder='email']
+26371 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[@placeholder='email']
+26379 INFO  manager.WDListener -- Location of element(201, 385)
+26390 INFO  manager.WDListener -- Before Click Element --->input text+ 
+26426 INFO  manager.WDListener -- After Click Element --->input
+26466 INFO  manager.WDListener -- sendKeys --->input
+26490 INFO  manager.WDListener -- sendKeys --->input
+26521 INFO  manager.WDListener -- sendKeys --->input
+26521 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[@placeholder='Address']
+26534 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[@placeholder='Address']
+26541 INFO  manager.WDListener -- Location of element(201, 458)
+26552 INFO  manager.WDListener -- Before Click Element --->input text+ 
+26584 INFO  manager.WDListener -- After Click Element --->input
+26620 INFO  manager.WDListener -- sendKeys --->input
+26642 INFO  manager.WDListener -- sendKeys --->input
+26670 INFO  manager.WDListener -- sendKeys --->input
+26671 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[@placeholder='description']
+26683 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[@placeholder='description']
+26690 INFO  manager.WDListener -- Location of element(201, 531)
+26700 INFO  manager.WDListener -- Before Click Element --->input text+ 
+26737 INFO  manager.WDListener -- After Click Element --->input
+26773 INFO  manager.WDListener -- sendKeys --->input
+26805 INFO  manager.WDListener -- sendKeys --->input
+26830 INFO  manager.WDListener -- sendKeys --->input
+26831 INFO  manager.WDListener -- Before Find Element --->By.xpath: //b[text()='Save']
+26844 INFO  manager.WDListener -- Before After Element --->By.xpath: //b[text()='Save']
+26852 INFO  manager.WDListener -- Location of element(623, 596)
+26862 INFO  manager.WDListener -- Before Click Element --->b text+ Save
+26895 INFO  manager.WDListener -- After Click Element --->b
+26924 INFO  manager.TestNGListener -- success test -->AddNewContact.addNewContactEmptyName()[pri:0, instance:tests.AddNewContact@3d2ee678]
+26925 INFO  manager.WDListener -- Before Find Element --->By.xpath: //a[text()='HOME']
+26937 INFO  manager.WDListener -- Before After Element --->By.xpath: //a[text()='HOME']
+26946 INFO  manager.WDListener -- Location of element(361, -73)
+26958 INFO  manager.WDListener -- Before Click Element --->a text+ HOME
+27021 INFO  manager.WDListener -- After Click Element --->a
+27050 INFO  manager.WDListener -- Before Find Element --->By.xpath: //a[text()='ADD']
+27062 INFO  manager.WDListener -- Before After Element --->By.xpath: //a[text()='ADD']
+27070 INFO  manager.WDListener -- Location of element(998, 34)
+27081 INFO  manager.WDListener -- Before Click Element --->a text+ ADD
+27131 INFO  manager.WDListener -- After Click Element --->a
+27132 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[@placeholder='Name']
+27143 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[@placeholder='Name']
+27154 INFO  manager.WDListener -- Location of element(201, 165)
+27166 INFO  manager.WDListener -- Before Click Element --->input text+ 
+27197 INFO  manager.WDListener -- After Click Element --->input
+27241 INFO  manager.WDListener -- sendKeys --->input
+27269 INFO  manager.WDListener -- sendKeys --->input
+27292 INFO  manager.WDListener -- sendKeys --->input
+27292 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[@placeholder='Last Name']
+27305 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[@placeholder='Last Name']
+27312 INFO  manager.WDListener -- Location of element(201, 238)
+27323 INFO  manager.WDListener -- Before Click Element --->input text+ 
+27362 INFO  manager.WDListener -- After Click Element --->input
+27407 INFO  manager.WDListener -- sendKeys --->input
+27430 INFO  manager.WDListener -- sendKeys --->input
+27456 INFO  manager.WDListener -- sendKeys --->input
+27456 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[@placeholder='Phone']
+27469 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[@placeholder='Phone']
+27476 INFO  manager.WDListener -- Location of element(201, 311)
+27488 INFO  manager.WDListener -- Before Click Element --->input text+ 
+27520 INFO  manager.WDListener -- After Click Element --->input
+27560 INFO  manager.WDListener -- sendKeys --->input
+27586 INFO  manager.WDListener -- sendKeys --->input
+27613 INFO  manager.WDListener -- sendKeys --->input
+27613 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[@placeholder='email']
+27622 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[@placeholder='email']
+27629 INFO  manager.WDListener -- Location of element(201, 385)
+27639 INFO  manager.WDListener -- Before Click Element --->input text+ 
+27672 INFO  manager.WDListener -- After Click Element --->input
+27708 INFO  manager.WDListener -- sendKeys --->input
+27735 INFO  manager.WDListener -- sendKeys --->input
+27769 INFO  manager.WDListener -- sendKeys --->input
+27769 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[@placeholder='Address']
+27779 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[@placeholder='Address']
+27785 INFO  manager.WDListener -- Location of element(201, 458)
+27795 INFO  manager.WDListener -- Before Click Element --->input text+ 
+27825 INFO  manager.WDListener -- After Click Element --->input
+27863 INFO  manager.WDListener -- sendKeys --->input
+27888 INFO  manager.WDListener -- sendKeys --->input
+27915 INFO  manager.WDListener -- sendKeys --->input
+27915 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[@placeholder='description']
+27925 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[@placeholder='description']
+27932 INFO  manager.WDListener -- Location of element(201, 531)
+27942 INFO  manager.WDListener -- Before Click Element --->input text+ 
+27971 INFO  manager.WDListener -- After Click Element --->input
+28007 INFO  manager.WDListener -- sendKeys --->input
+28038 INFO  manager.WDListener -- sendKeys --->input
+28064 INFO  manager.WDListener -- sendKeys --->input
+28064 INFO  manager.WDListener -- Before Find Element --->By.xpath: //b[text()='Save']
+28073 INFO  manager.WDListener -- Before After Element --->By.xpath: //b[text()='Save']
+28080 INFO  manager.WDListener -- Location of element(623, 596)
+28091 INFO  manager.WDListener -- Before Click Element --->b text+ Save
+28124 INFO  manager.WDListener -- After Click Element --->b
+33139 INFO  manager.WDListener -- Before Find Element --->By.xpath: //a[text()='ADD']
+33162 INFO  manager.WDListener -- Before After Element --->By.xpath: //a[text()='ADD']
+33172 INFO  manager.WDListener -- Location of element(998, 34)
+33181 INFO  manager.WDListener -- Before Click Element --->a text+ ADD
+33221 INFO  manager.WDListener -- After Click Element --->a
+33221 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[@placeholder='Name']
+33249 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[@placeholder='Name']
+33258 INFO  manager.WDListener -- Location of element(201, 165)
+33267 INFO  manager.WDListener -- Before Click Element --->input text+ 
+33299 INFO  manager.WDListener -- After Click Element --->input
+33341 INFO  manager.WDListener -- sendKeys --->input
+33367 INFO  manager.WDListener -- sendKeys --->input
+33388 INFO  manager.WDListener -- sendKeys --->input
+33389 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[@placeholder='Last Name']
+33400 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[@placeholder='Last Name']
+33409 INFO  manager.WDListener -- Location of element(201, 238)
+33423 INFO  manager.WDListener -- Before Click Element --->input text+ 
+33455 INFO  manager.WDListener -- After Click Element --->input
+33491 INFO  manager.WDListener -- sendKeys --->input
+33516 INFO  manager.WDListener -- sendKeys --->input
+33545 INFO  manager.WDListener -- sendKeys --->input
+33545 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[@placeholder='Phone']
+33554 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[@placeholder='Phone']
+33560 INFO  manager.WDListener -- Location of element(201, 311)
+33570 INFO  manager.WDListener -- Before Click Element --->input text+ 
+33599 INFO  manager.WDListener -- After Click Element --->input
+33639 INFO  manager.WDListener -- sendKeys --->input
+33662 INFO  manager.WDListener -- sendKeys --->input
+33689 INFO  manager.WDListener -- sendKeys --->input
+33690 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[@placeholder='email']
+33699 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[@placeholder='email']
+33705 INFO  manager.WDListener -- Location of element(201, 385)
+33714 INFO  manager.WDListener -- Before Click Element --->input text+ 
+33747 INFO  manager.WDListener -- After Click Element --->input
+33800 INFO  manager.WDListener -- sendKeys --->input
+33827 INFO  manager.WDListener -- sendKeys --->input
+33872 INFO  manager.WDListener -- sendKeys --->input
+33872 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[@placeholder='Address']
+33882 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[@placeholder='Address']
+33889 INFO  manager.WDListener -- Location of element(201, 458)
+33899 INFO  manager.WDListener -- Before Click Element --->input text+ 
+33929 INFO  manager.WDListener -- After Click Element --->input
+33967 INFO  manager.WDListener -- sendKeys --->input
+33990 INFO  manager.WDListener -- sendKeys --->input
+34015 INFO  manager.WDListener -- sendKeys --->input
+34016 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[@placeholder='description']
+34025 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[@placeholder='description']
+34030 INFO  manager.WDListener -- Location of element(201, 531)
+34040 INFO  manager.WDListener -- Before Click Element --->input text+ 
+34070 INFO  manager.WDListener -- After Click Element --->input
+34112 INFO  manager.WDListener -- sendKeys --->input
+34137 INFO  manager.WDListener -- sendKeys --->input
+34157 INFO  manager.WDListener -- sendKeys --->input
+34157 INFO  manager.WDListener -- Before Find Element --->By.xpath: //b[text()='Save']
+34170 INFO  manager.WDListener -- Before After Element --->By.xpath: //b[text()='Save']
+34177 INFO  manager.WDListener -- Location of element(623, 596)
+34186 INFO  manager.WDListener -- Before Click Element --->b text+ Save
+34209 INFO  manager.WDListener -- After Click Element --->b
+39224 INFO  manager.WDListener -- Before Find Element --->By.xpath: //a[text()='ADD']
+39240 INFO  manager.WDListener -- Before After Element --->By.xpath: //a[text()='ADD']
+39251 INFO  manager.WDListener -- Location of element(998, 34)
+39262 INFO  manager.WDListener -- Before Click Element --->a text+ ADD
+39298 INFO  manager.WDListener -- After Click Element --->a
+39298 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[@placeholder='Name']
+39324 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[@placeholder='Name']
+39339 INFO  manager.WDListener -- Location of element(201, 165)
+39349 INFO  manager.WDListener -- Before Click Element --->input text+ 
+39380 INFO  manager.WDListener -- After Click Element --->input
+39425 INFO  manager.WDListener -- sendKeys --->input
+39448 INFO  manager.WDListener -- sendKeys --->input
+39475 INFO  manager.WDListener -- sendKeys --->input
+39475 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[@placeholder='Last Name']
+39490 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[@placeholder='Last Name']
+39497 INFO  manager.WDListener -- Location of element(201, 238)
+39506 INFO  manager.WDListener -- Before Click Element --->input text+ 
+39537 INFO  manager.WDListener -- After Click Element --->input
+39572 INFO  manager.WDListener -- sendKeys --->input
+39594 INFO  manager.WDListener -- sendKeys --->input
+39625 INFO  manager.WDListener -- sendKeys --->input
+39625 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[@placeholder='Phone']
+39634 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[@placeholder='Phone']
+39640 INFO  manager.WDListener -- Location of element(201, 311)
+39650 INFO  manager.WDListener -- Before Click Element --->input text+ 
+39679 INFO  manager.WDListener -- After Click Element --->input
+39717 INFO  manager.WDListener -- sendKeys --->input
+39741 INFO  manager.WDListener -- sendKeys --->input
+39768 INFO  manager.WDListener -- sendKeys --->input
+39768 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[@placeholder='email']
+39777 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[@placeholder='email']
+39783 INFO  manager.WDListener -- Location of element(201, 385)
+39793 INFO  manager.WDListener -- Before Click Element --->input text+ 
+39825 INFO  manager.WDListener -- After Click Element --->input
+39860 INFO  manager.WDListener -- sendKeys --->input
+39887 INFO  manager.WDListener -- sendKeys --->input
+39923 INFO  manager.WDListener -- sendKeys --->input
+39923 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[@placeholder='Address']
+39934 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[@placeholder='Address']
+39941 INFO  manager.WDListener -- Location of element(201, 458)
+39950 INFO  manager.WDListener -- Before Click Element --->input text+ 
+39979 INFO  manager.WDListener -- After Click Element --->input
+40017 INFO  manager.WDListener -- sendKeys --->input
+40042 INFO  manager.WDListener -- sendKeys --->input
+40067 INFO  manager.WDListener -- sendKeys --->input
+40067 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[@placeholder='description']
+40076 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[@placeholder='description']
+40083 INFO  manager.WDListener -- Location of element(201, 531)
+40092 INFO  manager.WDListener -- Before Click Element --->input text+ 
+40122 INFO  manager.WDListener -- After Click Element --->input
+40162 INFO  manager.WDListener -- sendKeys --->input
+40186 INFO  manager.WDListener -- sendKeys --->input
+40208 INFO  manager.WDListener -- sendKeys --->input
+40208 INFO  manager.WDListener -- Before Find Element --->By.xpath: //b[text()='Save']
+40222 INFO  manager.WDListener -- Before After Element --->By.xpath: //b[text()='Save']
+40229 INFO  manager.WDListener -- Location of element(623, 596)
+40238 INFO  manager.WDListener -- Before Click Element --->b text+ Save
+40261 INFO  manager.WDListener -- After Click Element --->b
+45275 INFO  manager.TestNGListener -- start test -->RemoveContactTests.removeAllContact()[pri:0, instance:tests.RemoveContactTests@6179e425]
+45342 INFO  manager.WDListener -- Before Click Element --->h3 text+ 3456222635
+45384 INFO  manager.WDListener -- After Click Element --->h3
+45384 INFO  manager.WDListener -- Before Find Element --->By.xpath: //button[text()='Remove']
+45407 INFO  manager.WDListener -- Before After Element --->By.xpath: //button[text()='Remove']
+45417 INFO  manager.WDListener -- Location of element(635, 370)
+45427 INFO  manager.WDListener -- Before Click Element --->button text+ Remove
+45454 INFO  manager.WDListener -- After Click Element --->button
+45464 INFO  manager.WDListener -- Before Click Element --->h3 text+ 345626253344
+45497 INFO  manager.WDListener -- After Click Element --->h3
+45497 INFO  manager.WDListener -- Before Find Element --->By.xpath: //button[text()='Remove']
+45506 INFO  manager.WDListener -- Before After Element --->By.xpath: //button[text()='Remove']
+45513 INFO  manager.WDListener -- Location of element(635, 370)
+45522 INFO  manager.WDListener -- Before Click Element --->button text+ Remove
+45544 INFO  manager.WDListener -- After Click Element --->button
+45554 INFO  manager.WDListener -- Before Click Element --->h3 text+ 89523123895
+45590 INFO  manager.WDListener -- After Click Element --->h3
+45591 INFO  manager.WDListener -- Before Find Element --->By.xpath: //button[text()='Remove']
+45601 INFO  manager.WDListener -- Before After Element --->By.xpath: //button[text()='Remove']
+45608 INFO  manager.WDListener -- Location of element(635, 370)
+45619 INFO  manager.WDListener -- Before Click Element --->button text+ Remove
+45642 INFO  manager.WDListener -- After Click Element --->button
+45652 INFO  manager.WDListener -- Before Click Element --->h3 text+ 89523123967
+45689 INFO  manager.WDListener -- After Click Element --->h3
+45689 INFO  manager.WDListener -- Before Find Element --->By.xpath: //button[text()='Remove']
+45701 INFO  manager.WDListener -- Before After Element --->By.xpath: //button[text()='Remove']
+45709 INFO  manager.WDListener -- Location of element(635, 370)
+45719 INFO  manager.WDListener -- Before Click Element --->button text+ Remove
+45740 INFO  manager.WDListener -- After Click Element --->button
+45749 INFO  manager.WDListener -- Before Click Element --->h3 text+ 89523123973
+45782 INFO  manager.WDListener -- After Click Element --->h3
+45782 INFO  manager.WDListener -- Before Find Element --->By.xpath: //button[text()='Remove']
+45795 INFO  manager.WDListener -- Before After Element --->By.xpath: //button[text()='Remove']
+45804 INFO  manager.WDListener -- Location of element(635, 370)
+45813 INFO  manager.WDListener -- Before Click Element --->button text+ Remove
+45836 INFO  manager.WDListener -- After Click Element --->button
+45846 INFO  manager.WDListener -- Before Click Element --->h3 text+ 89523123980
+45879 INFO  manager.WDListener -- After Click Element --->h3
+45879 INFO  manager.WDListener -- Before Find Element --->By.xpath: //button[text()='Remove']
+45889 INFO  manager.WDListener -- Before After Element --->By.xpath: //button[text()='Remove']
+45896 INFO  manager.WDListener -- Location of element(635, 370)
+45907 INFO  manager.WDListener -- Before Click Element --->button text+ Remove
+45929 INFO  manager.WDListener -- After Click Element --->button
+45938 INFO  manager.WDListener -- Before Click Element --->h3 text+ 89523123792
+45977 INFO  manager.WDListener -- After Click Element --->h3
+45977 INFO  manager.WDListener -- Before Find Element --->By.xpath: //button[text()='Remove']
+45989 INFO  manager.WDListener -- Before After Element --->By.xpath: //button[text()='Remove']
+45996 INFO  manager.WDListener -- Location of element(635, 370)
+46007 INFO  manager.WDListener -- Before Click Element --->button text+ Remove
+46028 INFO  manager.WDListener -- After Click Element --->button
+46038 INFO  manager.WDListener -- Before Click Element --->h3 text+ 89523123798
+46071 INFO  manager.WDListener -- After Click Element --->h3
+46072 INFO  manager.WDListener -- Before Find Element --->By.xpath: //button[text()='Remove']
+46081 INFO  manager.WDListener -- Before After Element --->By.xpath: //button[text()='Remove']
+46090 INFO  manager.WDListener -- Location of element(635, 370)
+46100 INFO  manager.WDListener -- Before Click Element --->button text+ Remove
+46128 INFO  manager.WDListener -- After Click Element --->button
+46139 INFO  manager.WDListener -- Before Click Element --->h3 text+ 89523123804
+46173 INFO  manager.WDListener -- After Click Element --->h3
+46174 INFO  manager.WDListener -- Before Find Element --->By.xpath: //button[text()='Remove']
+46187 INFO  manager.WDListener -- Before After Element --->By.xpath: //button[text()='Remove']
+46197 INFO  manager.WDListener -- Location of element(635, 370)
+46208 INFO  manager.WDListener -- Before Click Element --->button text+ Remove
+46232 INFO  manager.WDListener -- After Click Element --->button
+66330 INFO  manager.TestNGListener -- success test -->RemoveContactTests.removeAllContact()[pri:0, instance:tests.RemoveContactTests@6179e425]
+66330 INFO  manager.WDListener -- Before Find Element --->By.xpath: //a[text()='HOME']
+66342 INFO  manager.WDListener -- Before After Element --->By.xpath: //a[text()='HOME']
+66353 INFO  manager.WDListener -- Location of element(361, 34)
+66365 INFO  manager.WDListener -- Before Click Element --->a text+ HOME
+66411 INFO  manager.WDListener -- After Click Element --->a
+66412 INFO  manager.TestNGListener -- stop testing on date -->Tue Nov 05 19:12:51 IST 2024

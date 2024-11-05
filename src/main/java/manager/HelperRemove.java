@@ -36,4 +36,34 @@ public class HelperRemove extends HelperBase{
             }
         pause(5000);
     }
+
+    public int removeOneContact() {
+        int before = countOfContacts();
+        logger.info("Number of contacts before is --->"+ before);
+        removeContact();
+        int after = countOfContacts();
+        logger.info("Number of contacts after is --->"+ after);
+        return before-after;
+    }
+
+    private void removeContact() {
+        click(By.cssSelector(".contact-item_card__2SOIM"));
+        click(By.xpath("//button[text()='Remove']"));
+        pause(500);
+    }
+
+    private int countOfContacts() {
+
+        return wd.findElements(By.cssSelector(".contact-item_card__2SOIM")).size();
+    }
+
+    public void removeAllCont(){
+        while (countOfContacts()!=0){
+            removeContact();
+        }
+    }
+
+
+
+
 }

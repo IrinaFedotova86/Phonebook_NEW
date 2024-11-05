@@ -1,0 +1,242 @@
+2494 INFO  manager.ApplicationManager -- All tests run in Chrome browser
+3917 INFO  manager.ApplicationManager -- The link --->https://telranedu.web.app/home
+3936 INFO  manager.TestNGListener -- start testing on date -->Fri Nov 01 10:44:10 IST 2024
+9005 INFO  manager.WDListener -- Before Find Element --->By.cssSelector: a[href='/login']
+9036 INFO  manager.WDListener -- Before After Element --->By.cssSelector: a[href='/login']
+9052 INFO  manager.WDListener -- Location of element(1170, 34)
+9067 INFO  manager.WDListener -- Before Click Element --->a text+ LOGIN
+9119 INFO  manager.WDListener -- After Click Element --->a
+9120 INFO  manager.WDListener -- Before Find Element --->By.name: email
+9143 INFO  manager.WDListener -- Before After Element --->By.name: email
+9158 INFO  manager.WDListener -- Location of element(431, 250)
+9174 INFO  manager.WDListener -- Before Click Element --->input text+ 
+9222 INFO  manager.WDListener -- After Click Element --->input
+9311 INFO  manager.WDListener -- sendKeys --->input
+9339 INFO  manager.WDListener -- sendKeys --->input
+9386 INFO  manager.WDListener -- sendKeys --->input
+9387 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[last()]
+9408 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[last()]
+9409 INFO  manager.WDListener -- Location of element(431, 320)
+9425 INFO  manager.WDListener -- Before Click Element --->input text+ 
+9469 INFO  manager.WDListener -- After Click Element --->input
+9528 INFO  manager.WDListener -- sendKeys --->input
+9551 INFO  manager.WDListener -- sendKeys --->input
+9592 INFO  manager.WDListener -- sendKeys --->input
+9592 INFO  manager.WDListener -- Before Find Element --->By.xpath: //button[text()='Login']
+9611 INFO  manager.WDListener -- Before After Element --->By.xpath: //button[text()='Login']
+9622 INFO  manager.WDListener -- Location of element(431, 390)
+9625 INFO  manager.WDListener -- Before Click Element --->button text+ Login
+9699 INFO  tests.TestBase -- Name of method --->addNewContactRequiredFieldsSuccessCSV
+9700 INFO  manager.TestNGListener -- start test -->AddNewContact.addNewContactRequiredFieldsSuccessCSV(models.Contact)[pri:0, instance:tests.AddNewContact@4f1bfe23]
+9706 INFO  tests.TestBase -- Test run with data --->Contact(name=Harry, lastName=Potter, phone=1234567345, email=harry@gmail.com, address=NY, description=hero)
+9709 INFO  manager.WDListener -- Before Find Element --->By.xpath: //a[text()='ADD']
+10810 INFO  manager.WDListener -- Before After Element --->By.xpath: //a[text()='ADD']
+10824 INFO  manager.WDListener -- Location of element(985, 34)
+10840 INFO  manager.WDListener -- Before Click Element --->a text+ ADD
+10888 INFO  manager.WDListener -- After Click Element --->a
+10889 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[@placeholder='Name']
+10914 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[@placeholder='Name']
+10928 INFO  manager.WDListener -- Location of element(201, 165)
+10943 INFO  manager.WDListener -- Before Click Element --->input text+ 
+10986 INFO  manager.WDListener -- After Click Element --->input
+11034 INFO  manager.WDListener -- sendKeys --->input
+11059 INFO  manager.WDListener -- sendKeys --->input
+11097 INFO  manager.WDListener -- sendKeys --->input
+11098 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[@placeholder='Last Name']
+11116 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[@placeholder='Last Name']
+11124 INFO  manager.WDListener -- Location of element(201, 238)
+11126 INFO  manager.WDListener -- Before Click Element --->input text+ 
+11162 INFO  manager.WDListener -- After Click Element --->input
+11209 INFO  manager.WDListener -- sendKeys --->input
+11243 INFO  manager.WDListener -- sendKeys --->input
+11274 INFO  manager.WDListener -- sendKeys --->input
+11274 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[@placeholder='Phone']
+11295 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[@placeholder='Phone']
+11303 INFO  manager.WDListener -- Location of element(201, 311)
+11317 INFO  manager.WDListener -- Before Click Element --->input text+ 
+11352 INFO  manager.WDListener -- After Click Element --->input
+11393 INFO  manager.WDListener -- sendKeys --->input
+11413 INFO  manager.WDListener -- sendKeys --->input
+11443 INFO  manager.WDListener -- sendKeys --->input
+11443 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[@placeholder='email']
+11475 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[@placeholder='email']
+11483 INFO  manager.WDListener -- Location of element(201, 385)
+11492 INFO  manager.WDListener -- Before Click Element --->input text+ 
+11537 INFO  manager.WDListener -- After Click Element --->input
+11576 INFO  manager.WDListener -- sendKeys --->input
+11613 INFO  manager.WDListener -- sendKeys --->input
+11660 INFO  manager.WDListener -- sendKeys --->input
+11660 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[@placeholder='Address']
+11678 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[@placeholder='Address']
+11686 INFO  manager.WDListener -- Location of element(201, 458)
+11693 INFO  manager.WDListener -- Before Click Element --->input text+ 
+11738 INFO  manager.WDListener -- After Click Element --->input
+11779 INFO  manager.WDListener -- sendKeys --->input
+11812 INFO  manager.WDListener -- sendKeys --->input
+11836 INFO  manager.WDListener -- sendKeys --->input
+11836 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[@placeholder='description']
+11845 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[@placeholder='description']
+11863 INFO  manager.WDListener -- Location of element(201, 531)
+11875 INFO  manager.WDListener -- Before Click Element --->input text+ 
+11915 INFO  manager.WDListener -- After Click Element --->input
+11970 INFO  manager.WDListener -- sendKeys --->input
+11993 INFO  manager.WDListener -- sendKeys --->input
+12037 INFO  manager.WDListener -- sendKeys --->input
+12037 INFO  manager.WDListener -- Before Find Element --->By.xpath: //b[text()='Save']
+12056 INFO  manager.WDListener -- Before After Element --->By.xpath: //b[text()='Save']
+12059 INFO  manager.WDListener -- Location of element(623, 596)
+12074 INFO  manager.WDListener -- Before Click Element --->b text+ Save
+12110 INFO  manager.WDListener -- After Click Element --->b
+13504 INFO  manager.WDListener -- Before Find Element --->By.xpath: //h2[text()='Harry']
+13520 INFO  manager.WDListener -- Before After Element --->By.xpath: //h2[text()='Harry']
+13535 INFO  manager.WDListener -- Location of element(207, 505)
+13551 INFO  manager.TestNGListener -- success test -->AddNewContact.addNewContactRequiredFieldsSuccessCSV(models.Contact)[pri:0, instance:tests.AddNewContact@4f1bfe23]
+13551 INFO  manager.WDListener -- Before Find Element --->By.xpath: //a[text()='HOME']
+13567 INFO  manager.WDListener -- Before After Element --->By.xpath: //a[text()='HOME']
+13582 INFO  manager.WDListener -- Location of element(364, 34)
+13598 INFO  manager.WDListener -- Before Click Element --->a text+ HOME
+13677 INFO  manager.WDListener -- After Click Element --->a
+13679 INFO  tests.TestBase -- =================================================================
+13680 INFO  tests.TestBase -- Name of method --->addNewContactRequiredFieldsSuccessCSV
+13681 INFO  manager.TestNGListener -- start test -->AddNewContact.addNewContactRequiredFieldsSuccessCSV(models.Contact)[pri:0, instance:tests.AddNewContact@4f1bfe23]
+13682 INFO  tests.TestBase -- Test run with data --->Contact(name=Molly, lastName=Potter, phone=3456222635, email=molly@gmail.com, address=NY, description=hero)
+13683 INFO  manager.WDListener -- Before Find Element --->By.xpath: //a[text()='ADD']
+13703 INFO  manager.WDListener -- Before After Element --->By.xpath: //a[text()='ADD']
+13710 INFO  manager.WDListener -- Location of element(998, 34)
+13725 INFO  manager.WDListener -- Before Click Element --->a text+ ADD
+13795 INFO  manager.WDListener -- After Click Element --->a
+13796 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[@placeholder='Name']
+13811 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[@placeholder='Name']
+13823 INFO  manager.WDListener -- Location of element(201, 165)
+13839 INFO  manager.WDListener -- Before Click Element --->input text+ 
+13891 INFO  manager.WDListener -- After Click Element --->input
+13954 INFO  manager.WDListener -- sendKeys --->input
+13992 INFO  manager.WDListener -- sendKeys --->input
+14053 INFO  manager.WDListener -- sendKeys --->input
+14054 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[@placeholder='Last Name']
+14070 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[@placeholder='Last Name']
+14077 INFO  manager.WDListener -- Location of element(201, 238)
+14093 INFO  manager.WDListener -- Before Click Element --->input text+ 
+14124 INFO  manager.WDListener -- After Click Element --->input
+14185 INFO  manager.WDListener -- sendKeys --->input
+14211 INFO  manager.WDListener -- sendKeys --->input
+14251 INFO  manager.WDListener -- sendKeys --->input
+14252 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[@placeholder='Phone']
+14263 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[@placeholder='Phone']
+14271 INFO  manager.WDListener -- Location of element(201, 311)
+14277 INFO  manager.WDListener -- Before Click Element --->input text+ 
+14318 INFO  manager.WDListener -- After Click Element --->input
+14362 INFO  manager.WDListener -- sendKeys --->input
+14384 INFO  manager.WDListener -- sendKeys --->input
+14411 INFO  manager.WDListener -- sendKeys --->input
+14411 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[@placeholder='email']
+14435 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[@placeholder='email']
+14444 INFO  manager.WDListener -- Location of element(201, 385)
+14456 INFO  manager.WDListener -- Before Click Element --->input text+ 
+14493 INFO  manager.WDListener -- After Click Element --->input
+14547 INFO  manager.WDListener -- sendKeys --->input
+14577 INFO  manager.WDListener -- sendKeys --->input
+14629 INFO  manager.WDListener -- sendKeys --->input
+14630 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[@placeholder='Address']
+14641 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[@placeholder='Address']
+14650 INFO  manager.WDListener -- Location of element(201, 458)
+14660 INFO  manager.WDListener -- Before Click Element --->input text+ 
+14701 INFO  manager.WDListener -- After Click Element --->input
+14750 INFO  manager.WDListener -- sendKeys --->input
+14778 INFO  manager.WDListener -- sendKeys --->input
+14818 INFO  manager.WDListener -- sendKeys --->input
+14818 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[@placeholder='description']
+14830 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[@placeholder='description']
+14838 INFO  manager.WDListener -- Location of element(201, 531)
+14852 INFO  manager.WDListener -- Before Click Element --->input text+ 
+14895 INFO  manager.WDListener -- After Click Element --->input
+14947 INFO  manager.WDListener -- sendKeys --->input
+14971 INFO  manager.WDListener -- sendKeys --->input
+14996 INFO  manager.WDListener -- sendKeys --->input
+14996 INFO  manager.WDListener -- Before Find Element --->By.xpath: //b[text()='Save']
+15017 INFO  manager.WDListener -- Before After Element --->By.xpath: //b[text()='Save']
+15024 INFO  manager.WDListener -- Location of element(623, 596)
+15035 INFO  manager.WDListener -- Before Click Element --->b text+ Save
+15060 INFO  manager.WDListener -- After Click Element --->b
+15623 INFO  manager.WDListener -- Before Find Element --->By.xpath: //h2[text()='Molly']
+15623 INFO  manager.WDListener -- Before After Element --->By.xpath: //h2[text()='Molly']
+15639 INFO  manager.WDListener -- Location of element(207, 665)
+15654 INFO  manager.TestNGListener -- success test -->AddNewContact.addNewContactRequiredFieldsSuccessCSV(models.Contact)[pri:0, instance:tests.AddNewContact@4f1bfe23]
+15654 INFO  manager.WDListener -- Before Find Element --->By.xpath: //a[text()='HOME']
+15654 INFO  manager.WDListener -- Before After Element --->By.xpath: //a[text()='HOME']
+15670 INFO  manager.WDListener -- Location of element(364, 34)
+15686 INFO  manager.WDListener -- Before Click Element --->a text+ HOME
+15735 INFO  manager.WDListener -- After Click Element --->a
+15736 INFO  tests.TestBase -- =================================================================
+15737 INFO  tests.TestBase -- Name of method --->addNewContactRequiredFieldsSuccessCSV
+15737 INFO  manager.TestNGListener -- start test -->AddNewContact.addNewContactRequiredFieldsSuccessCSV(models.Contact)[pri:0, instance:tests.AddNewContact@4f1bfe23]
+15737 INFO  tests.TestBase -- Test run with data --->Contact(name=Sara, lastName=Potter, phone=345626253344, email=sara@gmail.com, address=NY, description=hero)
+15737 INFO  manager.WDListener -- Before Find Element --->By.xpath: //a[text()='ADD']
+15749 INFO  manager.WDListener -- Before After Element --->By.xpath: //a[text()='ADD']
+15756 INFO  manager.WDListener -- Location of element(998, 34)
+15768 INFO  manager.WDListener -- Before Click Element --->a text+ ADD
+15820 INFO  manager.WDListener -- After Click Element --->a
+15820 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[@placeholder='Name']
+15831 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[@placeholder='Name']
+15838 INFO  manager.WDListener -- Location of element(201, 165)
+15850 INFO  manager.WDListener -- Before Click Element --->input text+ 
+15885 INFO  manager.WDListener -- After Click Element --->input
+15933 INFO  manager.WDListener -- sendKeys --->input
+15954 INFO  manager.WDListener -- sendKeys --->input
+15978 INFO  manager.WDListener -- sendKeys --->input
+15978 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[@placeholder='Last Name']
+15995 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[@placeholder='Last Name']
+16002 INFO  manager.WDListener -- Location of element(201, 238)
+16014 INFO  manager.WDListener -- Before Click Element --->input text+ 
+16047 INFO  manager.WDListener -- After Click Element --->input
+16081 INFO  manager.WDListener -- sendKeys --->input
+16114 INFO  manager.WDListener -- sendKeys --->input
+16141 INFO  manager.WDListener -- sendKeys --->input
+16142 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[@placeholder='Phone']
+16144 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[@placeholder='Phone']
+16162 INFO  manager.WDListener -- Location of element(201, 311)
+16172 INFO  manager.WDListener -- Before Click Element --->input text+ 
+16195 INFO  manager.WDListener -- After Click Element --->input
+16244 INFO  manager.WDListener -- sendKeys --->input
+16276 INFO  manager.WDListener -- sendKeys --->input
+16316 INFO  manager.WDListener -- sendKeys --->input
+16317 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[@placeholder='email']
+16326 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[@placeholder='email']
+16334 INFO  manager.WDListener -- Location of element(201, 385)
+16344 INFO  manager.WDListener -- Before Click Element --->input text+ 
+16366 INFO  manager.WDListener -- After Click Element --->input
+16410 INFO  manager.WDListener -- sendKeys --->input
+16432 INFO  manager.WDListener -- sendKeys --->input
+16483 INFO  manager.WDListener -- sendKeys --->input
+16483 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[@placeholder='Address']
+16497 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[@placeholder='Address']
+16505 INFO  manager.WDListener -- Location of element(201, 458)
+16510 INFO  manager.WDListener -- Before Click Element --->input text+ 
+16552 INFO  manager.WDListener -- After Click Element --->input
+16603 INFO  manager.WDListener -- sendKeys --->input
+16628 INFO  manager.WDListener -- sendKeys --->input
+16662 INFO  manager.WDListener -- sendKeys --->input
+16662 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[@placeholder='description']
+16674 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[@placeholder='description']
+16684 INFO  manager.WDListener -- Location of element(201, 531)
+16694 INFO  manager.WDListener -- Before Click Element --->input text+ 
+16728 INFO  manager.WDListener -- After Click Element --->input
+16801 INFO  manager.WDListener -- sendKeys --->input
+16822 INFO  manager.WDListener -- sendKeys --->input
+16844 INFO  manager.WDListener -- sendKeys --->input
+16844 INFO  manager.WDListener -- Before Find Element --->By.xpath: //b[text()='Save']
+16863 INFO  manager.WDListener -- Before After Element --->By.xpath: //b[text()='Save']
+16870 INFO  manager.WDListener -- Location of element(623, 596)
+16880 INFO  manager.WDListener -- Before Click Element --->b text+ Save
+16910 INFO  manager.WDListener -- After Click Element --->b
+18070 INFO  manager.WDListener -- Before Find Element --->By.xpath: //h2[text()='Sara']
+18086 INFO  manager.WDListener -- Before After Element --->By.xpath: //h2[text()='Sara']
+18102 INFO  manager.WDListener -- Location of element(207, 825)
+18102 INFO  manager.TestNGListener -- success test -->AddNewContact.addNewContactRequiredFieldsSuccessCSV(models.Contact)[pri:0, instance:tests.AddNewContact@4f1bfe23]
+18102 INFO  manager.WDListener -- Before Find Element --->By.xpath: //a[text()='HOME']
+18117 INFO  manager.WDListener -- Before After Element --->By.xpath: //a[text()='HOME']
+18133 INFO  manager.WDListener -- Location of element(364, 34)
+18133 INFO  manager.WDListener -- Before Click Element --->a text+ HOME
+18188 INFO  manager.WDListener -- After Click Element --->a
+18189 INFO  tests.TestBase -- =================================================================
+18193 INFO  manager.TestNGListener -- stop testing on date -->Fri Nov 01 10:44:10 IST 2024

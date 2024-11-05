@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 public class RemoveContactTests extends TestBase{
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void precondition(){
         if(!app.getHelperUser().isLogged()){
             app.getHelperUser().login(new User().setEmail("rnk87@mail.ru").setPassword("QweAsd12$"));
@@ -26,20 +26,22 @@ public class RemoveContactTests extends TestBase{
         int i = app.getHelperRemove().contactSize();
         app.getHelperRemove().removeFirstContact();
         app.getHelperRemove().pause(10000);
+        Assert.assertEquals(app.getHelperRemove().removeOneContact(), 1);
         Assert.assertEquals(app.getHelperRemove().contactSize(), i-1);
 
     }
 
-    @Test
+    @Test(groups = {"smoke"})
     public void removeAllContact(){
        //"No Contacts here!"
         app.getHelperRemove().removeAllContact();
+       // app.getHelperRemove().removeAllCont();
         app.getHelperRemove().pause(10000);
         Assert.assertEquals(app.getHelperRemove().contactSize(), 0);
         Assert.assertTrue(app.getHelperRemove().isElementPresent(By.xpath("//h1[text()=' No Contacts here!']")));
     }
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void postCondition(){
 
         app.getHelperUser().goHomePage();

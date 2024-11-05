@@ -1,0 +1,78 @@
+1943 INFO  manager.ApplicationManager -- All tests run in Chrome browser
+3868 INFO  manager.ApplicationManager -- The link --->https://telranedu.web.app/home
+3889 INFO  manager.TestNGListener -- start testing on date -->Fri Nov 01 13:36:03 IST 2024
+3919 INFO  tests.TestBase -- Name of method --->registrationExistUser
+8933 INFO  manager.TestNGListener -- start test -->RegistrationTests.registrationExistUser()[pri:0, instance:tests.RegistrationTests@77258e59]
+8933 INFO  manager.WDListener -- Before Find Element --->By.cssSelector: a[href='/login']
+8964 INFO  manager.WDListener -- Before After Element --->By.cssSelector: a[href='/login']
+8979 INFO  manager.WDListener -- Location of element(1170, 34)
+9000 INFO  manager.WDListener -- Before Click Element --->a text+ LOGIN
+9052 INFO  manager.WDListener -- After Click Element --->a
+9054 INFO  manager.WDListener -- Before Find Element --->By.name: email
+9089 INFO  manager.WDListener -- Before After Element --->By.name: email
+9101 INFO  manager.WDListener -- Location of element(431, 250)
+9127 INFO  manager.WDListener -- Before Click Element --->input text+ 
+9177 INFO  manager.WDListener -- After Click Element --->input
+9269 INFO  manager.WDListener -- sendKeys --->input
+9312 INFO  manager.WDListener -- sendKeys --->input
+9363 INFO  manager.WDListener -- sendKeys --->input
+9364 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[last()]
+9384 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[last()]
+9384 INFO  manager.WDListener -- Location of element(431, 320)
+9400 INFO  manager.WDListener -- Before Click Element --->input text+ 
+9433 INFO  manager.WDListener -- After Click Element --->input
+9484 INFO  manager.WDListener -- sendKeys --->input
+9518 INFO  manager.WDListener -- sendKeys --->input
+9550 INFO  manager.WDListener -- sendKeys --->input
+9550 INFO  manager.WDListener -- Before Find Element --->By.xpath: //button[text()='Login']
+9579 INFO  manager.WDListener -- Before After Element --->By.xpath: //button[text()='Login']
+9589 INFO  manager.WDListener -- Location of element(431, 390)
+9600 INFO  manager.WDListener -- Before Click Element --->button text+ Login
+9666 INFO  manager.WDListener -- Huston we have a problem!!!
+9667 INFO  manager.WDListener -- Object target -->org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@671d1157
+9667 INFO  manager.WDListener -- ------------------------------
+9667 INFO  manager.WDListener -- Method name --->alert
+9667 INFO  manager.WDListener -- ------------------------------
+9667 INFO  manager.WDListener -- InvocationTargetException -->org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=129.0.6668.101)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e46f723ad6f13473f96b2abd3f287684, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.101, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\ASUSVI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58281}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58281/devtoo..., se:cdpVersion: 129.0.6668.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e46f723ad6f13473f96b2abd3f287684
+9667 INFO  manager.WDListener -- ------------------------------
+9667 INFO  manager.WDListener -- Screen with error is --->src/test/screenshots/screen_1838.png
+10183 INFO  manager.WDListener -- Huston we have a problem!!!
+10183 INFO  manager.WDListener -- Object target -->org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@618ff5c2
+10183 INFO  manager.WDListener -- ------------------------------
+10183 INFO  manager.WDListener -- Method name --->alert
+10183 INFO  manager.WDListener -- ------------------------------
+10183 INFO  manager.WDListener -- InvocationTargetException -->org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=129.0.6668.101)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e46f723ad6f13473f96b2abd3f287684, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.101, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\ASUSVI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58281}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58281/devtoo..., se:cdpVersion: 129.0.6668.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e46f723ad6f13473f96b2abd3f287684
+10183 INFO  manager.WDListener -- ------------------------------
+10183 INFO  manager.WDListener -- Screen with error is --->src/test/screenshots/screen_1527.png
+10714 INFO  manager.WDListener -- Huston we have a problem!!!
+10714 INFO  manager.WDListener -- Object target -->org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@58ba5b30
+10714 INFO  manager.WDListener -- ------------------------------
+10714 INFO  manager.WDListener -- Method name --->alert
+10714 INFO  manager.WDListener -- ------------------------------
+10714 INFO  manager.WDListener -- InvocationTargetException -->org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=129.0.6668.101)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e46f723ad6f13473f96b2abd3f287684, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.101, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\ASUSVI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58281}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58281/devtoo..., se:cdpVersion: 129.0.6668.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e46f723ad6f13473f96b2abd3f287684
+10714 INFO  manager.WDListener -- ------------------------------
+10714 INFO  manager.WDListener -- Screen with error is --->src/test/screenshots/screen_1616.png
+11250 INFO  manager.TestNGListener -- failed test -->RegistrationTests.registrationExistUser()[pri:0, instance:tests.RegistrationTests@77258e59]
+11250 INFO  tests.TestBase -- =================================================================
+11250 INFO  manager.TestNGListener -- stop testing on date -->Fri Nov 01 13:36:03 IST 2024

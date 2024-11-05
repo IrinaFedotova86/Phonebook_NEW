@@ -1,0 +1,10 @@
+191  INFO  manager.TestNGListener -- start testing on date -->Tue Nov 05 18:55:10 IST 2024
+222  INFO  manager.TestNGListener -- start test -->LoginTests.loginWrongEmail()[pri:0, instance:tests.LoginTests@2eee3069]
+222  INFO  manager.TestNGListener -- skipped test -->LoginTests.loginWrongEmail()[pri:0, instance:tests.LoginTests@2eee3069]
+226  INFO  manager.TestNGListener -- start test -->RegistrationTests.registrationWrongPassowrd()[pri:0, instance:tests.RegistrationTests@eda25e5]
+226  INFO  manager.TestNGListener -- skipped test -->RegistrationTests.registrationWrongPassowrd()[pri:0, instance:tests.RegistrationTests@eda25e5]
+228  INFO  manager.TestNGListener -- start test -->AddNewContact.addNewContactEmptyName()[pri:0, instance:tests.AddNewContact@7cf6a5f9]
+229  INFO  manager.TestNGListener -- skipped test -->AddNewContact.addNewContactEmptyName()[pri:0, instance:tests.AddNewContact@7cf6a5f9]
+232  INFO  manager.TestNGListener -- start test -->RemoveContactTests.removeAllContact()[pri:0, instance:tests.RemoveContactTests@623e088f]
+232  INFO  manager.TestNGListener -- skipped test -->RemoveContactTests.removeAllContact()[pri:0, instance:tests.RemoveContactTests@623e088f]
+233  INFO  manager.TestNGListener -- stop testing on date -->Tue Nov 05 18:55:10 IST 2024

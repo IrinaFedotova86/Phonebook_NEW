@@ -1,0 +1,158 @@
+3611 INFO  manager.ApplicationManager -- All tests run in Chrome browser
+5151 INFO  manager.ApplicationManager -- The link --->https://telranedu.web.app/home
+5196 INFO  tests.TestBase -- Name of method --->loginSuccess
+10268 INFO  tests.TestBase -- Start test LoginSuccess
+10268 INFO  tests.TestBase -- Test data ---> email: 'mara@gmail.com' & password: 'Mmar123456$'
+10268 INFO  manager.WDListener -- Before Find Element --->By.cssSelector: a[href='/login']
+10315 INFO  manager.WDListener -- Before After Element --->By.cssSelector: a[href='/login']
+10331 INFO  manager.WDListener -- Location of element(1170, 34)
+10362 INFO  manager.WDListener -- Before Click Element --->a text+ LOGIN
+10418 INFO  manager.WDListener -- After Click Element --->a
+10418 INFO  manager.WDListener -- Before Find Element --->By.name: email
+10441 INFO  manager.WDListener -- Before After Element --->By.name: email
+10457 INFO  manager.WDListener -- Location of element(431, 250)
+10473 INFO  manager.WDListener -- Before Click Element --->input text+ 
+10518 INFO  manager.WDListener -- After Click Element --->input
+10613 INFO  manager.WDListener -- sendKeys --->input
+10642 INFO  manager.WDListener -- sendKeys --->input
+10693 INFO  manager.WDListener -- sendKeys --->input
+10694 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[last()]
+10708 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[last()]
+10708 INFO  manager.WDListener -- Location of element(431, 320)
+10724 INFO  manager.WDListener -- Before Click Element --->input text+ 
+10761 INFO  manager.WDListener -- After Click Element --->input
+10809 INFO  manager.WDListener -- sendKeys --->input
+10843 INFO  manager.WDListener -- sendKeys --->input
+10876 INFO  manager.WDListener -- sendKeys --->input
+10876 INFO  manager.WDListener -- Before Find Element --->By.xpath: //button[text()='Login']
+10913 INFO  manager.WDListener -- Before After Element --->By.xpath: //button[text()='Login']
+10922 INFO  manager.WDListener -- Location of element(431, 390)
+10926 INFO  manager.WDListener -- Before Click Element --->button text+ Login
+12343 INFO  tests.TestBase -- Assert check is element Button 'Sign out' present
+12343 INFO  tests.TestBase -- =================================================================
+12343 INFO  tests.TestBase -- Name of method --->loginSuccessModel
+12359 INFO  manager.WDListener -- Before Find Element --->By.xpath: //button[text()='Sign Out']
+12395 INFO  manager.WDListener -- Before After Element --->By.xpath: //button[text()='Sign Out']
+12409 INFO  manager.WDListener -- Location of element(1155, 39)
+12409 INFO  manager.WDListener -- Before Click Element --->button text+ Sign Out
+12468 INFO  tests.TestBase -- Before method logout finish
+12468 INFO  tests.TestBase -- Test data ---> email: 'mara@gmail.com' & password: 'Mmar123456$'
+12469 INFO  manager.WDListener -- Before Find Element --->By.cssSelector: a[href='/login']
+12492 INFO  manager.WDListener -- Before After Element --->By.cssSelector: a[href='/login']
+12514 INFO  manager.WDListener -- Location of element(1152, 33)
+12531 INFO  manager.WDListener -- Before Click Element --->a text+ LOGIN
+12571 INFO  manager.WDListener -- After Click Element --->a
+12572 INFO  manager.WDListener -- Before Find Element --->By.name: email
+12591 INFO  manager.WDListener -- Before After Element --->By.name: email
+12600 INFO  manager.WDListener -- Location of element(431, 250)
+12609 INFO  manager.WDListener -- Before Click Element --->input text+ 
+12671 INFO  manager.WDListener -- After Click Element --->input
+12717 INFO  manager.WDListener -- sendKeys --->input
+12741 INFO  manager.WDListener -- sendKeys --->input
+12789 INFO  manager.WDListener -- sendKeys --->input
+12789 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[last()]
+12806 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[last()]
+12809 INFO  manager.WDListener -- Location of element(431, 320)
+12826 INFO  manager.WDListener -- Before Click Element --->input text+ 
+12879 INFO  manager.WDListener -- After Click Element --->input
+12931 INFO  manager.WDListener -- sendKeys --->input
+12955 INFO  manager.WDListener -- sendKeys --->input
+12999 INFO  manager.WDListener -- sendKeys --->input
+13000 INFO  manager.WDListener -- Before Find Element --->By.xpath: //button[text()='Login']
+13016 INFO  manager.WDListener -- Before After Element --->By.xpath: //button[text()='Login']
+13028 INFO  manager.WDListener -- Location of element(431, 390)
+13060 INFO  manager.WDListener -- Before Click Element --->button text+ Login
+14007 INFO  tests.TestBase -- Assert check is element Button 'Sign out' present
+14007 INFO  tests.TestBase -- =================================================================
+14008 INFO  tests.TestBase -- Name of method --->loginUnregisteredUser
+14026 INFO  manager.WDListener -- Before Find Element --->By.xpath: //button[text()='Sign Out']
+14042 INFO  manager.WDListener -- Before After Element --->By.xpath: //button[text()='Sign Out']
+14042 INFO  manager.WDListener -- Location of element(1155, 39)
+14058 INFO  manager.WDListener -- Before Click Element --->button text+ Sign Out
+14109 INFO  tests.TestBase -- Before method logout finish
+14110 INFO  tests.TestBase -- Test data ---> email: 'mara123@gmail.com' & password: 'Mmar123456$'
+14110 INFO  manager.WDListener -- Before Find Element --->By.cssSelector: a[href='/login']
+14139 INFO  manager.WDListener -- Before After Element --->By.cssSelector: a[href='/login']
+14143 INFO  manager.WDListener -- Location of element(1152, 33)
+14159 INFO  manager.WDListener -- Before Click Element --->a text+ LOGIN
+14202 INFO  manager.WDListener -- After Click Element --->a
+14203 INFO  manager.WDListener -- Before Find Element --->By.name: email
+14221 INFO  manager.WDListener -- Before After Element --->By.name: email
+14230 INFO  manager.WDListener -- Location of element(431, 250)
+14241 INFO  manager.WDListener -- Before Click Element --->input text+ 
+14282 INFO  manager.WDListener -- After Click Element --->input
+14326 INFO  manager.WDListener -- sendKeys --->input
+14344 INFO  manager.WDListener -- sendKeys --->input
+14403 INFO  manager.WDListener -- sendKeys --->input
+14403 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[last()]
+14420 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[last()]
+14427 INFO  manager.WDListener -- Location of element(431, 320)
+14443 INFO  manager.WDListener -- Before Click Element --->input text+ 
+14499 INFO  manager.WDListener -- After Click Element --->input
+14564 INFO  manager.WDListener -- sendKeys --->input
+14592 INFO  manager.WDListener -- sendKeys --->input
+14637 INFO  manager.WDListener -- sendKeys --->input
+14637 INFO  manager.WDListener -- Before Find Element --->By.xpath: //button[text()='Login']
+14651 INFO  manager.WDListener -- Before After Element --->By.xpath: //button[text()='Login']
+14660 INFO  manager.WDListener -- Location of element(431, 390)
+14660 INFO  manager.WDListener -- Before Click Element --->button text+ Login
+15270 INFO  tests.TestBase -- Assert check is alert 'Wrong email or password' present
+15271 INFO  tests.TestBase -- =================================================================
+15273 INFO  tests.TestBase -- Name of method --->loginWrongEmail
+20280 INFO  tests.TestBase -- Test data ---> email: 'maragmail.com' & password: 'Mmar123456$'
+20280 INFO  manager.WDListener -- Before Find Element --->By.cssSelector: a[href='/login']
+20296 INFO  manager.WDListener -- Before After Element --->By.cssSelector: a[href='/login']
+20312 INFO  manager.WDListener -- Location of element(1152, 33)
+20312 INFO  manager.WDListener -- Before Click Element --->a text+ LOGIN
+20363 INFO  manager.WDListener -- After Click Element --->a
+20364 INFO  manager.WDListener -- Before Find Element --->By.name: email
+20376 INFO  manager.WDListener -- Before After Element --->By.name: email
+20385 INFO  manager.WDListener -- Location of element(431, 281)
+20394 INFO  manager.WDListener -- Before Click Element --->input text+ 
+20439 INFO  manager.WDListener -- After Click Element --->input
+20512 INFO  manager.WDListener -- sendKeys --->input
+20553 INFO  manager.WDListener -- sendKeys --->input
+20600 INFO  manager.WDListener -- sendKeys --->input
+20600 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[last()]
+20612 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[last()]
+20620 INFO  manager.WDListener -- Location of element(431, 351)
+20628 INFO  manager.WDListener -- Before Click Element --->input text+ 
+20673 INFO  manager.WDListener -- After Click Element --->input
+20729 INFO  manager.WDListener -- sendKeys --->input
+20764 INFO  manager.WDListener -- sendKeys --->input
+20795 INFO  manager.WDListener -- sendKeys --->input
+20795 INFO  manager.WDListener -- Before Find Element --->By.xpath: //button[text()='Login']
+20814 INFO  manager.WDListener -- Before After Element --->By.xpath: //button[text()='Login']
+20822 INFO  manager.WDListener -- Location of element(431, 421)
+20836 INFO  manager.WDListener -- Before Click Element --->button text+ Login
+21935 INFO  tests.TestBase -- Assert check is alert 'Wrong email or password' present
+21935 INFO  tests.TestBase -- =================================================================
+21935 INFO  tests.TestBase -- Name of method --->loginWrongPassowrd
+26948 INFO  tests.TestBase -- Test data ---> email: 'mara@gmail.com' & password: 'Mmar123$'
+26948 INFO  manager.WDListener -- Before Find Element --->By.cssSelector: a[href='/login']
+26963 INFO  manager.WDListener -- Before After Element --->By.cssSelector: a[href='/login']
+26979 INFO  manager.WDListener -- Location of element(1152, 33)
+26995 INFO  manager.WDListener -- Before Click Element --->a text+ LOGIN
+27042 INFO  manager.WDListener -- After Click Element --->a
+27043 INFO  manager.WDListener -- Before Find Element --->By.name: email
+27055 INFO  manager.WDListener -- Before After Element --->By.name: email
+27064 INFO  manager.WDListener -- Location of element(431, 281)
+27077 INFO  manager.WDListener -- Before Click Element --->input text+ 
+27100 INFO  manager.WDListener -- After Click Element --->input
+27163 INFO  manager.WDListener -- sendKeys --->input
+27196 INFO  manager.WDListener -- sendKeys --->input
+27229 INFO  manager.WDListener -- sendKeys --->input
+27229 INFO  manager.WDListener -- Before Find Element --->By.xpath: //input[last()]
+27253 INFO  manager.WDListener -- Before After Element --->By.xpath: //input[last()]
+27260 INFO  manager.WDListener -- Location of element(431, 351)
+27274 INFO  manager.WDListener -- Before Click Element --->input text+ 
+27300 INFO  manager.WDListener -- After Click Element --->input
+27364 INFO  manager.WDListener -- sendKeys --->input
+27387 INFO  manager.WDListener -- sendKeys --->input
+27429 INFO  manager.WDListener -- sendKeys --->input
+27429 INFO  manager.WDListener -- Before Find Element --->By.xpath: //button[text()='Login']
+27439 INFO  manager.WDListener -- Before After Element --->By.xpath: //button[text()='Login']
+27447 INFO  manager.WDListener -- Location of element(431, 421)
+27459 INFO  manager.WDListener -- Before Click Element --->button text+ Login
+28544 INFO  tests.TestBase -- Assert check is alert 'Wrong email or password' present
+28544 INFO  tests.TestBase -- =================================================================
